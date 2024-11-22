@@ -1,0 +1,191 @@
+*{ 
+    padding: 0%; 
+    margin: 0%; 
+    box-sizing: border-box; 
+} 
+ 
+body{ 
+    width: 1000px; 
+    height:1000px; 
+    background-color: black; 
+} 
+ 
+.con{ 
+    width: 100vw; 
+    height:100vh; 
+    background:linear-gradient(to top,rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url(./nf.jpg); 
+    background-size: cover; 
+ 
+} 
+ 
+img{ 
+    padding-left: 120px; 
+    margin-top: -40px; 
+} 
+.con1{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+.inner{ 
+    padding: 10px; 
+    color: white; 
+    margin-top: -50px; 
+    width: 450px; 
+    height: 600px; 
+    /* border: 2px solid white; */ 
+    text-align: center; 
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)); 
+} 
+.inner>h1{ 
+    margin-left: -220px; 
+    margin-top: 35px; 
+    margin-bottom: 25px ; 
+} 
+#email{ 
+    padding: 17px; 
+    width: 75%; 
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+    border: none; 
+    box-shadow: 0px 0px 2px white; 
+    background: transparent; 
+    font-size: 15px; 
+ 
+} 
+#email:hover{ 
+    border: 2px solid white; 
+} 
+input{ 
+    color: aliceblue; 
+} 
+#password{ 
+    padding: 17px; 
+    width: 75%; 
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+    border: none; 
+    box-shadow: 0px 0px 2px white; 
+    background: transparent; 
+    font-size: 15px; 
+} 
+#password:hover{ 
+    border: 2px solid white; 
+} 
+.inner>button{ 
+    padding: 12px; 
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+    width: 75%; 
+    border-radius: 5px; 
+    border: none; 
+    cursor: pointer; 
+} 
+#Sign{ 
+    background-color:rgb(233, 13, 13); 
+  
+} 
+#Sign:hover{ 
+    background-color: #c7253e; 
+} 
+#Sign>a{ 
+    text-decoration: none; 
+    font-weight: bold; 
+    color: white; 
+    font-size: 14px; 
+} 
+#sec>a:hover{ 
+    text-decoration: underline; 
+} 
+#forget{ 
+    padding-top: 20px; 
+    text-decoration: none; 
+    color: white; 
+    font-size: 18px; 
+} 
+#forget:hover{ 
+    text-decoration: underline; 
+} 
+#one>a{ 
+    text-decoration: none; 
+    font-size: 14px; 
+    font-weight: bold; 
+    color: white; 
+     
+} 
+#one{ 
+    margin-bottom: 20px; 
+    background:linear-gradient(rgba(156, 154, 154, 0.2),rgba(172, 169, 169, 0.2)); 
+    box-shadow: 0px 0px 2px white; 
+} 
+#rem{ 
+    margin-top: 20px; 
+    margin-left: -220px; 
+    margin-bottom: 22px; 
+} 
+input::placeholder{ 
+    color:rgb(163, 160, 160); 
+} 
+#sec{ 
+    margin-left: -120px; 
+    margin-bottom: 25px; 
+    color: rgb(207, 204, 204); 
+    font-size: 17px; 
+     
+} 
+#three{ 
+   margin-left:28px; 
+    word-spacing: 2px; 
+    color: grey; 
+    font-size: 16px; 
+    margin-right: 25px; 
+ 
+} 
+#sec>a{ 
+    text-decoration: none; 
+    font-size: 18px; 
+    font-weight: bold; 
+    color: white; 
+} 
+.text>p{ 
+    color: rgb(145, 143, 143); 
+    /* margin-left: -20px; */ 
+    margin-bottom: 20px; 
+    font-size: 20px; 
+} 
+.text>p>a{ 
+    color: grey; 
+    text-decoration: none; 
+    font-size: 20px; 
+} 
+.con2{ 
+    margin-top: 130px; 
+} 
+.green>ul{ 
+    display: flex; 
+    gap:170px; 
+    margin-bottom: 15px; 
+    list-style-type: none; 
+} 
+.green>ul>li>a{ 
+    color: rgb(148, 147, 147); 
+} 
+.green1>ul>li>a{ 
+    color: rgb(126, 123, 123); 
+} 
+.green1>ul{ 
+    display: flex; 
+    gap:75px; 
+    margin-bottom: 20px; 
+} 
+.mar{ 
+    margin:150px; 
+} 
+#lang{ 
+    padding: 6px; 
+    width: 100px; 
+    text-align: center; 
+     background:linear-gradient(rgba(73, 72, 72, 0.3),rgba(95, 95, 95, 0.3)); 
+     color: white; 
+     border-radius: 3px; 
+}
